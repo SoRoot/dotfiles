@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/lukasungerland/Documents/04_Studium/37_Web-Projekt/mocap.web'
+let g:netrw_dirhist_2='/Users/lukasungerland/Documents/04_Studium/37_Web-Projekt/mocap.web/mocap/app/assets/javascripts'
+let g:netrw_dirhist_3='/Users/lukasungerland/Documents/04_Studium/37_Web-Projekt/mocap.web/mocap'
+let g:netrw_dirhist_4='/Users/lukasungerland/Documents/04_Studium/37_Web-Projekt/mocap.web'
+let g:netrw_dirhist_5='/Users/lukasungerland/Documents/04_Studium/37_Web-Projekt/mocap.web/mocap/app'
+let g:netrw_dirhist_6='/Users/lukasungerland/Documents/04_Studium/37_Web-Projekt/mocap.web/mocap/app/views'
+let g:netrw_dirhist_7='/Users/lukasungerland/Documents/04_Studium/37_Web-Projekt/mocap.web/mocap/app/views/users'
