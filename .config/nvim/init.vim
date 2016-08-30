@@ -64,6 +64,7 @@ nnoremap - .
 nnoremap <leader>e :Lexplore<CR> " toggle for Lexplore 
 nnoremap <leader>t :TagbarToggle<CR> " toggle object hirachy
 nnoremap <leader>v :tabedit $MYVIMRC<CR> " open vimrc in ohter tap
+nnoremap <leader>l :set wrap!<CR> " toggle linewrapping
 nnoremap <S-Enter> O<Esc> " shift enter => line above
 nnoremap <CR> o<Esc> " enter => line below
 xnoremap p "_dP " overwtrie with yanked text in visual mode
