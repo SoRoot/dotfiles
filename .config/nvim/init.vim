@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+Plug 'Yggdroot/indentLine' " vertical lines indentation level 
 Plug 'pangloss/vim-javascript'
 Plug 'lilydjwg/colorizer'
 Plug 'majutsushi/tagbar'
@@ -29,7 +30,7 @@ Plug 'syntastic'
 Plug 'tpope/vim-rhubarb'
 " Plug 'Valloric/YouCompleteMe'
 call plug#end()
-set scrolloff=5 "show lines above and below when scrolling
+set scrolloff=5 " show lines above and below when scrolling
 filetype plugin indent on
 set autoindent " always set autoindenting on
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
@@ -40,7 +41,7 @@ set ignorecase " Case insensitive search
 set smartcase " Case sensitive then capital is typed
 set incsearch " search as characters are entered
 set laststatus=2 "Always show the status line
-set lazyredraw " redraw only when we need to.
+set lazyredraw " redraw only when we need to
 set number "show line numbers
 set ruler " show the cursor position all the time
 set showcmd " display incomplete commands
