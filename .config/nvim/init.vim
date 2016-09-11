@@ -1,5 +1,4 @@
 call plug#begin('~/.vim/plugged')
-Plug 'Yggdroot/indentLine' " vertical lines indentation level 
 Plug 'pangloss/vim-javascript'
 Plug 'lilydjwg/colorizer'
 Plug 'majutsushi/tagbar'
