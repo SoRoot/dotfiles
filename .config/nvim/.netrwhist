@@ -1,11 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/akustik-sca/img'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/akustik-sca/js'
 let g:netrw_dirhist_2='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/akustik-sca'
-let g:netrw_dirhist_3='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes'
-let g:netrw_dirhist_4='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/akustik-sca'
-let g:netrw_dirhist_5='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes'
-let g:netrw_dirhist_6='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/akustik-sca'
-let g:netrw_dirhist_7='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes'
-let g:netrw_dirhist_8='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/akustik-sca'
-let g:netrw_dirhist_9='/Users/lukasungerland'
+let g:netrw_dirhist_3='/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/akustik-sca/less'
