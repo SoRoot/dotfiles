@@ -1,4 +1,5 @@
 # Path to your oh-my-zsh installation.
+# /
 export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
@@ -53,7 +54,7 @@ plugins=(git, z)
 
 # User configuration
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH:/Library/TeX/Root/bin/x68_64-darwin
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
