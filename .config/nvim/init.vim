@@ -28,8 +28,9 @@ Plug 'ctrlp.vim'
 Plug 'syntastic'
 Plug 'tpope/vim-rhubarb'
 Plug 'vim-latex/vim-latex'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim' 
 Plug 'xuhdev/vim-latex-live-preview'
-Plug 'Valloric/YouCompleteMe'
 call plug#end()
 set scrolloff=5 " show lines above and below when scrolling
 filetype plugin indent on
@@ -73,6 +74,9 @@ xnoremap p "_dP " overwtrie with yanked text in visual mode
 
 syntax enable
 set background=light
+" solarized options 
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
 colorscheme solarized
 
 let g:netrw_liststyle=3 " shows 3rd liststyle in explorer mode
