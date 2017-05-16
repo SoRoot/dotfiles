@@ -27,8 +27,16 @@ zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "lib/completion", from:oh-my-zsh
 zplug "mafredri/zsh-async", from:github
-zplug "dracula/zsh", as:theme
 zplug "rupa/z", use:z.sh
+
+zplug "plugins/brew", from:oh-my-zsh
+zplug "plugins/brew-cask", from:oh-my-zsh
+zplug "plugins/git",   from:oh-my-zsh
+zplug "plugins/osx", from:oh-my-zsh, if:"[[ $OSTYPE == *darwin* ]]"
+zplug "plugins/colorize", from:oh-my-zsh
+zplug "kennethreitz/oh-my-zsh", use:"lib/*.zsh"
+zplug "themes/kennethreitz", from:oh-my-zsh
+
 
 # Install packages that have not been installed yet
 if ! zplug check --verbose; then

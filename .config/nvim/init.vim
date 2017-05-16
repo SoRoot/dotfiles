@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+
 Plug 'pangloss/vim-javascript'
 Plug 'lilydjwg/colorizer'
 Plug 'majutsushi/tagbar'
@@ -20,12 +21,10 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-bundler'
 Plug 'slim-template/vim-slim'
 Plug 'fatih/vim-go'
-Plug 'tComment'
 Plug 'christoomey/vim-run-interactive'
 Plug 'vim-scripts/vim-coffee-script'
 Plug 'janko-m/vim-test'
-Plug 'ctrlp.vim'
-Plug 'syntastic'
+Plug 'benekastah/neomake'                                    " Linter/maker
 Plug 'tpope/vim-rhubarb'
 Plug 'vim-latex/vim-latex'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -33,7 +32,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'xuhdev/vim-latex-live-preview'
 call plug#end()
 set scrolloff=5 " show lines above and below when scrolling
-filetype plugin indent on
+filetype plugin on " invoke plugins when you open file
+filetype indent on " enables automatic indentation
 set autoindent " always set autoindenting on
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 set cursorline " highlight current line
@@ -43,6 +43,7 @@ set ignorecase " Case insensitive search
 set smartcase " Case sensitive then capital is typed
 set incsearch " search as characters are entered
 set laststatus=2 "Always show the status line
+set grepprg=grep\ -nH\ $* " always generates a file-name
 set lazyredraw " redraw only when we need to
 set number "show line numbers
 set ruler " show the cursor position all the time
@@ -55,7 +56,11 @@ set tabstop=2 " tap is only 2 spaces
 set shiftwidth=2 " tap 2
 set foldmethod=syntax " folding based on syntax
 set foldlevelstart=20 " closed fold only ober 20
-" Arror keys disabled in normal mode
+" show line numbers by default
+"set relativenumber
+"set number " Arror keys disabled in normal mode
+set spell " spell check comments
+
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1 " change cursor shape depending on mode
 let mapleader=","
 nnoremap <left> <nop>
