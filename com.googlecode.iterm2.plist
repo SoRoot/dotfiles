@@ -53,9 +53,9 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>294 101 918 495 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>598 48 710 729 0 0 1280 777 </string>
+	<string>0 48 1277 729 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>419 48 710 729 0 0 1280 777 </string>
+	<string>533 69 710 708 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>95 48 710 729 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
@@ -1348,6 +1348,8 @@
 		<string>000</string>
 		<string>0000</string>
 	</array>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1383,6 +1385,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/lukasungerland/dotfiles</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1392,11 +1396,15 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-05-16T07:31:42Z</date>
+	<date>2017-05-24T15:24:53Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>3.0.15</string>
 </dict>

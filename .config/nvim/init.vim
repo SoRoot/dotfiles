@@ -56,6 +56,7 @@ set tabstop=2 " tap is only 2 spaces
 set shiftwidth=2 " tap 2
 set foldmethod=syntax " folding based on syntax
 set foldlevelstart=20 " closed fold only ober 20
+set modeline " enabel modelines
 " show line numbers by default
 "set relativenumber
 "set number " Arror keys disabled in normal mode
@@ -63,6 +64,7 @@ set spell " spell check comments
 
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1 " change cursor shape depending on mode
 let mapleader=","
+nnoremap <C-p> :Files<CR>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
 nnoremap <up> <nop>
@@ -75,9 +77,8 @@ nnoremap <leader>v :tabedit $MYVIMRC<CR> " open vimrc in ohter tap
 nnoremap <leader>l :set wrap!<CR> " toggle linewrapping
 nnoremap <S-Enter> O<Esc> " shift enter => line above
 nnoremap <CR> o<Esc> " enter => line below
-xnoremap p "_dP " overwtrie with yanked text in visual mode
-
-syntax enable
+xnoremap p "_dP " overwrite with yanked text in visual mode
+set mouse=a " Enable use of the mouse for all modes - helpful for resizing buffers
 set background=light
 " solarized options 
 let g:solarized_visibility = "high"
@@ -87,7 +88,9 @@ colorscheme solarized
 let g:netrw_liststyle=3 " shows 3rd liststyle in explorer mode
 let g:netrw_altv=1 " open files on right
 let g:netrw_winsize = 20 " winsize of netrw
-
+" Show file preview in fzf
+let g:fzf_files_options =
+  \ '--preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'
 let g:livepreview_previewer = 'open -a Preview'
 "" REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
 filetype plugin on
