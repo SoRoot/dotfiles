@@ -1,8 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/lukasungerland/.vim'
-let g:netrw_dirhist_2='/Users/lukasungerland'
-let g:netrw_dirhist_3='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit'
-let g:netrw_dirhist_4='/Users/lukasungerland/dotfiles/.zplug/repos/zsh-users'
-let g:netrw_dirhist_5='/Users/lukasungerland'
-let g:netrw_dirhist_6='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit/Thesis'
+let g:netrw_dirhist_2='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit/Thesis/Chapters'
+let g:netrw_dirhist_3='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit/Thesis'
+let g:netrw_dirhist_4='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit/Thesis/Chapters'

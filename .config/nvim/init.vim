@@ -78,7 +78,7 @@ nnoremap <leader>l :set wrap!<CR> " toggle linewrapping
 nnoremap <S-Enter> O<Esc> " shift enter => line above
 nnoremap <CR> o<Esc> " enter => line below
 xnoremap p "_dP " overwrite with yanked text in visual mode
-set mouse=a " Enable use of the mouse for all modes - helpful for resizing buffers
+"set mouse=a " Enable use of the mouse for all modes - helpful for resizing buffers
 set background=light
 " solarized options 
 let g:solarized_visibility = "high"
