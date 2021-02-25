@@ -1,6 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit/Thesis'
-let g:netrw_dirhist_2='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit/Thesis/Chapters'
-let g:netrw_dirhist_3='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit/Thesis'
-let g:netrw_dirhist_4='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit/Thesis/Chapters'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/lukas/dotfiles/.git'
