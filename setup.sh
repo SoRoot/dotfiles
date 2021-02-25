@@ -8,6 +8,10 @@ function doIt() {
 	  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 		curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 		sudo apt-get install -y nodejs
+		ln -s -f "$(pwd)/.vim" $HOME
+		ln -s -f "$(pwd)/.zplug" $HOME
+		ln -s -f "$(pwd)/.config" $HOME
+		ln -s -f "$(pwd)/.zshrc" $HOME
 	}
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
