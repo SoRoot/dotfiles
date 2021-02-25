@@ -1,7 +1,7 @@
 # Ignore all Plugins
-/.vim/plugged/*
+.vim/plugged
 
 .DS_Store
 .zcompdump
 
-/.config/nvim/.netrwhist
+.config/nvim/.netrwhist
