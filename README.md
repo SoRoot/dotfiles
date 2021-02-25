@@ -6,7 +6,7 @@
 
 Install ZSH
 ```bash
-$ sudo apt install zsh`
+$ sudo apt install zsh
 ```
 
 Install Neovim
