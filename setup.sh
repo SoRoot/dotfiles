@@ -6,12 +6,13 @@ git pull origin master;
 
 function doIt() {
 	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
-	curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
-	sudo apt-get install -y nodejs
+	#curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+	#sudo apt-get install -y nodejs
 	ln -s -v -f "$(pwd)/.vim" $HOME
 	ln -s -v -f "$(pwd)/.zplug" $HOME
 	ln -s -v -f "$(pwd)/.config" $HOME
 	ln -s -v -f "$(pwd)/.zshrc" $HOME
+	ln -s -v -f "$(pwd)/.tmux.conf" $HOME
 	zsh
 }
 
