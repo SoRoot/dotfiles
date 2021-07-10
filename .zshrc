@@ -3,6 +3,7 @@
 unset GREP_OPTIONS
 
 alias v=nvim 
+alias vim=nvim
 alias ll='ls -alF'
 HISTFILE=~/.histfile
 HISTSIZE=10000
