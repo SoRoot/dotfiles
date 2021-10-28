@@ -6,6 +6,7 @@ git pull origin master;
 
 function doIt() {
 	sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" "" --unattended
+	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf ~/.fzf/install
 	#curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 	#sudo apt-get install -y nodejs
 	ln -s -v -f "$(pwd)/.vim" $HOME
