@@ -16,6 +16,6 @@ $ sudo apt install neovim
 
 Install repo
 ```bash
-git clone https://github.com/soroot/dotfiles && cd dotfiles && ./setup.sh
+git clone git@github.com/soroot/dotfiles.git && cd dotfiles && ./setup.sh
 ```
 
