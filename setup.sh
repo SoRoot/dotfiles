@@ -15,6 +15,7 @@ function doIt() {
 	ln -s -v -f "$(pwd)/.config" $HOME
 	ln -s -v -f "$(pwd)/.zshrc" $HOME
 	ln -s -v -f "$(pwd)/.tmux.conf" $HOME
+	chsh -s $(which zsh)
 	zsh
 }
 
