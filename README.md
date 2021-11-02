@@ -14,10 +14,13 @@ Install Neovim
 $ sudo apt install neovim
 ```
 
-Install repo
+Install repo with ssh
 ```bash
 $ git clone git@github.com:soroot/dotfiles.git && cd dotfiles && ./setup.sh
 ```
+$ git clone https://github.com/SoRoot/dotfiles.git && cd dotfiles && ./setup.sh
+Install repo with https
+
 
 #### Troubelshooting
 If you encounter errors like this:
