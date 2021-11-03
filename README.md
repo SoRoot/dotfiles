@@ -14,6 +14,11 @@ Install Neovim
 $ sudo apt install neovim
 ```
 
+Install tmux
+```bash
+$ sudo apt-get install tmux
+```
+
 Install repo with ssh
 ```bash
 $ git clone git@github.com:soroot/dotfiles.git && cd dotfiles && ./setup.sh
