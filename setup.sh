@@ -12,7 +12,9 @@ function doIt() {
 	#sudo apt-get install -y nodejs
 	ln -s -v -f "$(pwd)/.vim" $HOME
 	ln -s -v -f "$(pwd)/.zplug" $HOME
-	ln -s -v -f "$(pwd)/.config" $HOME
+	ln -s -v -f "$(pwd)/.config/coc" $HOME/.config
+	ln -s -v -f "$(pwd)/.config/htop" $HOME/.config
+	ln -s -v -f "$(pwd)/.config/nvim" $HOME/.config
 	ln -s -v -f "$(pwd)/.zshrc" $HOME
 	ln -s -v -f "$(pwd)/.tmux.conf" $HOME
 	chsh -s $(which zsh)
