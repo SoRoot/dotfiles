@@ -10,13 +10,14 @@ function doIt() {
 	~/.fzf/install
 	#curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 	#sudo apt-get install -y nodejs
-	ln -s -v -f "$(pwd)/.vim" $HOME
-	ln -s -v -f "$(pwd)/.zplug" $HOME
-	ln -s -v -f "$(pwd)/.config/coc" $HOME/.config
-	ln -s -v -f "$(pwd)/.config/htop" $HOME/.config
-	ln -s -v -f "$(pwd)/.config/nvim" $HOME/.config
-	ln -s -v -f "$(pwd)/.zshrc" $HOME
-	ln -s -v -f "$(pwd)/.tmux.conf" $HOME
+	ln -svf "$(pwd)/.vim" $HOME
+	ln -svf "$(pwd)/.zplug" $HOME
+	ln -svf "$(pwd)/.zshrc" $HOME
+	ln -svf "$(pwd)/.tmux.conf" $HOME
+	[[ -d $HOME/.config ]] || mkdir $HOME/.config
+	ln -svf "$(pwd)/.config/nvim" $HOME/.config
+	ln -svf "$(pwd)/.config/coc" $HOME/.config
+	ln -svf "$(pwd)/.config/htop" $HOME/.config
 	chsh -s $(which zsh)
 	zsh
 }
