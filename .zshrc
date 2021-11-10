@@ -3,6 +3,7 @@
 unset GREP_OPTIONS
 
 alias v=nvim 
+alias 'sv'='sudo nvim'
 alias ll='ls -alF'
 HISTFILE=~/.histfile
 HISTSIZE=10000
