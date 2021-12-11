@@ -5,3 +5,7 @@
 .zcompdump
 
 .config/nvim/.netrwhist
+
+bin
+share
+ctags-5.8
