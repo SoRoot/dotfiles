@@ -23,6 +23,10 @@ if [[ ! -d ~/.zplug ]]; then
 		source ~/.zplug/init.zsh && zplug update --self
 fi
 
+# adding dotfiles TMUX to path
+export PATH="$HOME/dotfiles/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/dotfiles/lib:$LD_LIBRARY_PATH"
+
 source ~/.zplug/init.zsh
 
 plugins=(git battery)
