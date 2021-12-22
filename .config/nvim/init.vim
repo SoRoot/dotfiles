@@ -36,7 +36,8 @@ Plug 'tpope/vim-projectionist' " with :A you can cycle threw test.c test.h thest
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } "fuzzy finder for finding files
 Plug 'junegunn/fzf.vim' "default Vimscript for fzf 
 "Plug 'xuhdev/vim-latex-live-preview' "provides live preview of the output PDF
-Plug 'neoclide/coc.nvim', {'branch': 'release'} "snippets with full Language Server support
+"Plug 'neoclide/coc.nvim', {'branch': 'release'} "snippets with full Language Server support
+Plug 'neovim/nvim-lspconfig' "Neovims built-in language server client
 call plug#end()
 
 "Filtype is used if you have language specific config files that don't ocurre
