@@ -28,13 +28,11 @@ function doIt() {
 	~/.fzf/install
 	#curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
 	#sudo apt-get install -y nodejs
-	ln -svf "$(pwd)/.vim" $HOME
 	ln -svf "$(pwd)/.zplug" $HOME
 	ln -svf "$(pwd)/.zshrc" $HOME
 	ln -svf "$(pwd)/.tmux.conf" $HOME
 	[[ -d $HOME/.config ]] || mkdir $HOME/.config
 	ln -svf "$(pwd)/.config/nvim" $HOME/.config
-	ln -svf "$(pwd)/.config/coc" $HOME/.config
 	ln -svf "$(pwd)/.config/htop" $HOME/.config
 	
 	echo -e "\n"
