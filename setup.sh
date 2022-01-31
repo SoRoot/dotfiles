@@ -37,9 +37,16 @@ function doIt() {
 	ln -svf "$(pwd)/.config/coc" $HOME/.config
 	ln -svf "$(pwd)/.config/htop" $HOME/.config
 	
+	echo -e "\n"
+	read -p "Do you want to install packer.nvim a lua plugin/package manager for Nvim? (y/n) " -n 1;
+	echo "";
+	if [[ $REPLY =~ ^[Yy]$ ]]; then
+		git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+	fi;
+
 
 	echo -e "\n"
-	read -p "Do you want to install Exuberant Ctags? (y/n) " -n 1;
+	read -p "Do you want to install Exuberant Ctags to have C support for Tagbar? (y/n) " -n 1;
 	echo "";
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		installCflags;
