@@ -27,7 +27,11 @@ Install repo with https
 ```bash
 $ git clone https://github.com/SoRoot/dotfiles.git && cd dotfiles && ./setup.sh
 ```
-
+First time opening vim you will see some errors because some plugins are not installed.
+Inside NVIM run:
+```bash
+:PackerInstall
+```
 
 #### Troubelshooting
 If you encounter errors like this:
