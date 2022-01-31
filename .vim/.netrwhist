@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/lukasungerland/Google Drive/WPR+IA SS16/Animation/v2/js'
-let g:netrw_dirhist_2='/Users/lukasungerland/Google Drive/WPR+IA SS16/Animation/v2'
-let g:netrw_dirhist_3='/Users/lukasungerland/Documents/04_Studium/38_Bachelorarbeit'
