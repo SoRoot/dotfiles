@@ -9,5 +9,6 @@ return require('packer').startup(function()
 	use 'hrsh7th/cmp-nvim-lsp' --lsp source for nvim-cmp
 	use 'saadparwaiz1/cmp_luasnip' --snippets source for nvim-cmp
 	use 'L3MON4D3/LuaSnip' --snippets plugin
+	use 'tpope/vim-fugitive' --git inside nvim, all git commands work (depends on my .gitconfig)
 end)
 
