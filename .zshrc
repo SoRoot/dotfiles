@@ -27,6 +27,10 @@ fi
 export PATH="$HOME/dotfiles/bin:$PATH"
 export LD_LIBRARY_PATH="$HOME/dotfiles/lib:$LD_LIBRARY_PATH"
 
+# adding dotfile NVIM to path
+export PATH="$HOME/dotfiles/nvim/bin:$PATH"
+export LD_LIBRARY_PATH="$HOME/dotfiles/nvim/lib:$LD_LIBRARY_PATH"
+
 source ~/.zplug/init.zsh
 
 plugins=(git battery)
