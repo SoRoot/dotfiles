@@ -21,7 +21,8 @@ vim.o.shiftwidth=2 --tap 2
 vim.o.foldmethod="syntax" --folding based on syntax
 vim.o.foldlevelstart=20 --closed fold only ober 20
 vim.o.modeline=true --enabel custimized modeline methods
-vim.o.mouse="a" --enable use of the mouse for all modes - helpful for resizing buffers
+--vim.o.mouse="a" --enable use of the mouse for all modes - helpful for resizing buffers
+vim.o.mouse="" --disable vim mouse, using tmux mouse support for working on servers where win32yank is not available
 --change cursor shape depending on mode
 vim.o.guicursor="n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor,sm:block-blinkwait175-blinkoff150-blinkon175"
 
