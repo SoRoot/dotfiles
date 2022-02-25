@@ -4,7 +4,7 @@ capHtml.textDocument.completion.completionItem.snippetSupport = true
 
 require'lspconfig'.html.setup {
 	capabilities = capHtml,
-	filetype = { "html", "php" },
+	filetypes = { "html", "php" },
 }
 
 -- Add additional capabilities supported by nvim-cmp
