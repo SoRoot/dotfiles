@@ -9,9 +9,11 @@ Install ZSH
 $ sudo apt install zsh
 ```
 
-Install Neovim
+Install Neovim: Make sure you have Neovim v0.5.0+.
 ```bash
-$ sudo apt install neovim
+$ sudo add-apt-repository ppa:neovim-ppa/stable
+$ sudo apt-get update
+$ sudo apt-get install neovim
 ```
 
 Install tmux
