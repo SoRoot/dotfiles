@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/lukas/.local/share/nvim/site/pack/packer/start/tagbar",
     url = "https://github.com/majutsushi/tagbar"
   },
+  ["vim-autoformat"] = {
+    loaded = true,
+    path = "/home/lukas/.local/share/nvim/site/pack/packer/start/vim-autoformat",
+    url = "https://github.com/Chiel92/vim-autoformat"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/lukas/.local/share/nvim/site/pack/packer/start/vim-fugitive",
