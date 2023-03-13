@@ -9,9 +9,11 @@ Install ZSH
 $ sudo apt install zsh
 ```
 
-Install Neovim
+Install Neovim: Make sure you have Neovim v0.5.0+.
 ```bash
-$ sudo apt install neovim
+$ sudo add-apt-repository ppa:neovim-ppa/stable
+$ sudo apt-get update
+$ sudo apt-get install neovim
 ```
 
 Install tmux
@@ -67,8 +69,8 @@ __zplug::core::sources::call:5: command not found: __zplug::log::capture::error
 Just do the following
 ```bash
 $ cd dotfiles
-$ rm -rf .zplug
 $ export ZPLUG_HOME=~/dotfiles/.zplug
+$ rm -rf .zplug
 $ git clone https://github.com/zplug/zplug $ZPLUG_HOME
 ```
 

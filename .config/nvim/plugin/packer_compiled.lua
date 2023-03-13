@@ -118,6 +118,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/lukas/.local/share/nvim/site/pack/packer/start/tagbar",
     url = "https://github.com/majutsushi/tagbar"
+  },
+  ["vim-autoformat"] = {
+    loaded = true,
+    path = "/home/lukas/.local/share/nvim/site/pack/packer/start/vim-autoformat",
+    url = "https://github.com/Chiel92/vim-autoformat"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/lukas/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 
@@ -127,5 +137,6 @@ if should_profile then save_profiles() end
 end)
 
 if not no_errors then
+  error_msg = error_msg:gsub('"', '\\"')
   vim.api.nvim_command('echohl ErrorMsg | echom "Error in packer_compiled: '..error_msg..'" | echom "Please check your config for correctness" | echohl None')
 end

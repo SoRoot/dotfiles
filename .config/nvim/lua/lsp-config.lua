@@ -4,8 +4,10 @@ capHtml.textDocument.completion.completionItem.snippetSupport = true
 
 require'lspconfig'.html.setup {
 	capabilities = capHtml,
-	filetype = { "html", "php" },
+	filetypes = { "html", "php" },
 }
+
+require'lspconfig'.phpactor.setup {}
 
 -- Add additional capabilities supported by nvim-cmp
 local capCmp = vim.lsp.protocol.make_client_capabilities()
@@ -13,7 +15,7 @@ capCmp = require('cmp_nvim_lsp').update_capabilities(capCmp)
 
 local lspconfig = require('lspconfig')
 -- Enable some language servers with the additional completion capabilities offered by nvim-cmp
-local servers = { 'html', 'clangd', 'rust_analyzer', 'pyright', 'tsserver' }
+local servers = { 'phpactor', 'html', 'clangd', 'rust_analyzer', 'pyright', 'tsserver' }
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
     -- on_attach = my_custom_on_attach,

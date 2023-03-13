@@ -10,5 +10,6 @@ return require('packer').startup(function()
 	use 'saadparwaiz1/cmp_luasnip' --snippets source for nvim-cmp
 	use 'L3MON4D3/LuaSnip' --snippets plugin
 	use 'tpope/vim-fugitive' --git inside nvim, all git commands work (depends on my .gitconfig)
+	use 'Chiel92/vim-autoformat' --Autoformat code
 end)
 
