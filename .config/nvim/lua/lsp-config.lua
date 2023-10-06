@@ -2,6 +2,7 @@
 local capHtml = vim.lsp.protocol.make_client_capabilities()
 capHtml.textDocument.completion.completionItem.snippetSupport = true
 
+--require'lspconfig'.nil_ls.setup{}
 require'lspconfig'.html.setup {
 	capabilities = capHtml,
 	filetype = { "html", "php" },
